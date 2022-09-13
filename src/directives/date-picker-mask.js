@@ -7,6 +7,7 @@ export default {
       alias: 'datetime',
       inputFormat: 'mm/dd/yyyy',
       placeholder: '__/__/____',
+      insertModeVisual: false,
       ...binding.value,
     }).mask(el);
   },
